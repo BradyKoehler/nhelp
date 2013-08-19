@@ -1,0 +1,23 @@
+{
+  "name": "nhelp",
+  "version": "0.0.0",
+  "description": "Show help data to show in the console when a user runs % nhelp <scriptname>.js .  Uses continuous comments starting at the beginning of the file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BradyKoehler/rhelp.git"
+  },
+  "keywords": [
+    "help",
+    "script",
+    "console"
+  ],
+  "author": "Brady Koehler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BradyKoehler/rhelp/issues"
+  }
+}
