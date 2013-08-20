@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BradyKoehler/rhelp.git"
+    "url": "https://github.com/BradyKoehler/nhelp.git"
   },
   "keywords": [
     "help",
@@ -18,7 +18,7 @@
   "author": "Brady Koehler",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BradyKoehler/rhelp/issues"
+    "url": "https://github.com/BradyKoehler/nhelp/issues"
   },
   "bin": {
   	"nhelp": "bin/nhelp.js"
