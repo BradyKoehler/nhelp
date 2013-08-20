@@ -19,5 +19,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/BradyKoehler/rhelp/issues"
-  }
+  },
+  "scripts": {
+    "preinstall": "node build.js || nodejs build.js"
+  },
+  "gypfile": true
 }

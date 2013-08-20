@@ -1,4 +1,5 @@
-=README
+NHelp - v0.0.0
+=============
 
 Show help data in the console when a user runs
 
