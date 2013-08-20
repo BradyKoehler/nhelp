@@ -1,7 +1,7 @@
 {
   "name": "nhelp",
   "version": "0.0.0",
-  "description": "Show help data to show in the console when a user runs % nhelp <scriptname>.js . Looks for multi-line javascript comments that start with /* RHELP:",
+  "description": "Show help data for a javascript file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
