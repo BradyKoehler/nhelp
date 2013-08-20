@@ -1,6 +1,6 @@
 {
   "name": "nhelp",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Show help data for a javascript file.",
   "main": "index.js",
   "scripts": {
