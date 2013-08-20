@@ -13,8 +13,14 @@ Looks for multi-line javascript comments that look like this:
   	This too.
   	*/
 
+Or single-line comments like this:
+
+	/* RHELP: This will show up. */
+
 Normal comments won't show up:
 
   	/*
   	This won't show up
   	*/
+
+The script stops looking for help data after it finds one occurence of an RHELP identifier.
