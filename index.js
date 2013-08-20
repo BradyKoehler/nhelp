@@ -10,25 +10,33 @@ var run = function(filename) {
 				} else {
 					var a = true;
 					var b = true;
+					var c = true;
 					var i = 0;
 					var lines = data.split('\r\n');
 					var line = "";
 					var start = 0;
 					while (b) {
 						line = lines[i];
-						if (line.slice(0,2) == "/*" && line.indexOf("RHELP:") != -1) {
-							line = line.slice(2,-1);
-							a = false;
-							b = false;
-							start = i + 1;
+						if (line.indexOf("/*") != -1 && line.indexOf("RHELP:") != -1) {
+							if (line.indexOf("*/") == -1) {
+								line = line.slice(2,-1);
+								a = false;
+								b = false;
+								start = i + 1;
+							} else {
+								a = false;
+								b = false;
+								c = false;
+								console.log(line.slice(line.indexOf("RHELP:")+6,line.indexOf("*/")));
+							}
 						}
 						i++;
 						if (i >= lines.length) {
 							b = false;
 						}
 					}
-					if (!a) {
-						while (lines[start].slice(0,2) != "*/") {
+					if (!a && c) {
+						while (lines.indexOf("*/") != -1) {
 							console.log(lines[start]);
 							start++;
 						}

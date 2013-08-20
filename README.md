@@ -1,4 +1,4 @@
-NHelp - v0.0.3
+NHelp - v0.0.4
 =============
 
 Show help data in the console when a user runs
