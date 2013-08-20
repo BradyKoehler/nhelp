@@ -1,0 +1,142 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Anonymous\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\ANONYM~1\\AppData\\Local\\Temp\\npm-5576-J4Nj9yUI\\1376972296345-0.46009747008793056\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+13 verbose folder .
+14 info prepublish nhelp@0.0.0
+15 silly lockFile 1f1177db-tar tar://.
+16 verbose lock tar://. C:\Users\Anonymous\AppData\Roaming\npm-cache\1f1177db-tar.lock
+17 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+18 verbose lock tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz C:\Users\Anonymous\AppData\Roaming\npm-cache\5eeb06c0-6345-0-46009747008793056-tmp-tgz.lock
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 1f1177db-tar tar://.
+21 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+22 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+23 verbose tar unpack C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+24 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+25 verbose lock tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package C:\Users\Anonymous\AppData\Roaming\npm-cache\dfa7df66-6345-0-46009747008793056-package.lock
+26 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+27 verbose lock tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz C:\Users\Anonymous\AppData\Roaming\npm-cache\5eeb06c0-6345-0-46009747008793056-tmp-tgz.lock
+28 silly gunzTarPerm modes [ '755', '644' ]
+29 silly gunzTarPerm extractEntry package.json
+30 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+33 silly gunzTarPerm extractEntry README.md
+34 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+35 silly gunzTarPerm extractEntry index.js
+36 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+37 silly gunzTarPerm extractEntry bin/nhelp.js
+38 silly gunzTarPerm modified mode [ 'bin/nhelp.js', 438, 420 ]
+39 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+40 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+41 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+42 silly lockFile 5eeb06c0-6345-0-46009747008793056-tmp-tgz tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\tmp.tgz
+43 verbose tar pack [ 'C:\\Users\\Anonymous\\AppData\\Roaming\\npm-cache\\nhelp\\0.0.0\\package.tgz',
+43 verbose tar pack   'C:\\Users\\ANONYM~1\\AppData\\Local\\Temp\\npm-5576-J4Nj9yUI\\1376972296345-0.46009747008793056\\package' ]
+44 verbose tarball C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+45 verbose folder C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+46 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+47 verbose lock tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package C:\Users\Anonymous\AppData\Roaming\npm-cache\dfa7df66-6345-0-46009747008793056-package.lock
+48 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+49 verbose lock tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz C:\Users\Anonymous\AppData\Roaming\npm-cache\0a52cda0-pm-cache-nhelp-0-0-0-package-tgz.lock
+50 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+51 silly lockFile dfa7df66-6345-0-46009747008793056-package tar://C:\Users\ANONYM~1\AppData\Local\Temp\npm-5576-J4Nj9yUI\1376972296345-0.46009747008793056\package
+52 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+53 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+54 silly lockFile 0621b965-ng-npm-cache-nhelp-0-0-0-package C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+55 verbose lock C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package C:\Users\Anonymous\AppData\Roaming\npm-cache\0621b965-ng-npm-cache-nhelp-0-0-0-package.lock
+56 silly lockFile 0621b965-ng-npm-cache-nhelp-0-0-0-package C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+57 silly lockFile 0621b965-ng-npm-cache-nhelp-0-0-0-package C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+58 verbose tar unpack C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+59 silly lockFile b26d7091-ng-npm-cache-nhelp-0-0-0-package tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+60 verbose lock tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package C:\Users\Anonymous\AppData\Roaming\npm-cache\b26d7091-ng-npm-cache-nhelp-0-0-0-package.lock
+61 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+62 verbose lock tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz C:\Users\Anonymous\AppData\Roaming\npm-cache\0a52cda0-pm-cache-nhelp-0-0-0-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+68 silly gunzTarPerm extractEntry README.md
+69 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+70 silly gunzTarPerm extractEntry index.js
+71 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+72 silly gunzTarPerm extractEntry bin/nhelp.js
+73 silly gunzTarPerm modified mode [ 'bin/nhelp.js', 438, 420 ]
+74 silly lockFile b26d7091-ng-npm-cache-nhelp-0-0-0-package tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+75 silly lockFile b26d7091-ng-npm-cache-nhelp-0-0-0-package tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package
+76 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+77 silly lockFile 0a52cda0-pm-cache-nhelp-0-0-0-package-tgz tar://C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+78 verbose chmod C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz 644
+79 silly chown skipping for windows C:\Users\Anonymous\AppData\Roaming\npm-cache\nhelp\0.0.0\package.tgz
+80 silly lockFile 3a52ce78- .
+81 silly lockFile 3a52ce78- .
+82 silly publish { name: 'nhelp',
+82 silly publish   version: '0.0.0',
+82 silly publish   description: 'Show help data for a javascript file.',
+82 silly publish   main: 'index.js',
+82 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+82 silly publish   repository:
+82 silly publish    { type: 'git',
+82 silly publish      url: 'https://github.com/BradyKoehler/rhelp.git' },
+82 silly publish   keywords: [ 'help', 'script', 'console' ],
+82 silly publish   author: { name: 'Brady Koehler' },
+82 silly publish   license: 'MIT',
+82 silly publish   bugs: { url: 'https://github.com/BradyKoehler/rhelp/issues' },
+82 silly publish   bin: { nhelp: 'bin/nhelp.js' },
+82 silly publish   readme: 'NHelp - v0.0.1\r\n=============\r\n\r\nShow help data in the console when a user runs\r\n\r\n% nhelp <scriptname>.js\r\n\r\nLooks for multi-line javascript comments that look like this:\r\n/* RHELP:\r\nThis will show up.\r\nSo will this.\r\nThis too.\r\n*/\r\n\r\nNormal comments won\'t show up:\r\n/*\r\nThis won\'t show up\r\n*/',
+82 silly publish   readmeFilename: 'README.md',
+82 silly publish   _id: 'nhelp@0.0.0',
+82 silly publish   dist: { shasum: 'a6a1a1f6ec225d052af0571608dca13d96784426' },
+82 silly publish   _from: '.' }
+83 verbose url raw nhelp
+84 verbose url resolving [ 'https://registry.npmjs.org/', './nhelp' ]
+85 verbose url resolved https://registry.npmjs.org/nhelp
+86 info trying registry request attempt 1 at 22:18:16
+87 http PUT https://registry.npmjs.org/nhelp
+88 http 409 https://registry.npmjs.org/nhelp
+89 verbose url raw nhelp
+90 verbose url resolving [ 'https://registry.npmjs.org/', './nhelp' ]
+91 verbose url resolved https://registry.npmjs.org/nhelp
+92 info trying registry request attempt 1 at 22:18:17
+93 http GET https://registry.npmjs.org/nhelp
+94 http 200 https://registry.npmjs.org/nhelp
+95 error publish fail Cannot publish over existing version.
+95 error publish fail Update the 'version' field in package.json and try again.
+95 error publish fail
+95 error publish fail If the previous version was published in error, see:
+95 error publish fail     npm help unpublish
+95 error publish fail
+95 error publish fail To automatically increment version numbers, see:
+95 error publish fail     npm help version
+96 error System Windows_NT 6.1.7601
+97 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+98 error cwd C:\Aptana\nhelp
+99 error node -v v0.10.15
+100 error npm -v 1.3.5
+101 error code EPUBLISHCONFLICT
+102 verbose exit [ 1, true ]
